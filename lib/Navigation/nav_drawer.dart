@@ -34,7 +34,7 @@ class _Nav_DrawerState extends State<Nav_Drawer> {
               decoration: BoxDecoration(
 
                   color: Colors.white,
-                  image: DecorationImage(
+                  image:  DecorationImage(
                       image: AssetImage('assets/icons/app_icon.png'),
                       fit: BoxFit.contain)),
               child: Container(),
@@ -44,26 +44,26 @@ class _Nav_DrawerState extends State<Nav_Drawer> {
             }),
             buildListTile(context, 'Prescription', Icons.book_outlined, () {
               _nextScreen("Prescription",
-                  'https://shahanarahmanmedicine.com/prescription/');
+                  'https://srmedicine.com.bd/prescription/');
             }),
             buildListTile(context, 'Doctor List', Icons.list_outlined, () {
               _nextScreen("Doctor List",
-                  'https://shahanarahmanmedicine.com/doctor-list/');
+                  'https://srmedicine.com.bd/doctor-list/');
             }),
             buildListTile(context, 'Blog', Icons.web_outlined, () {
-              _nextScreen("Blog", 'https://shahanarahmanmedicine.com/blog/');
+              _nextScreen("Blog", 'https://srmedicine.com.bd/blog/');
             }),
             buildListTile(context, 'My Cart', Icons.shopping_cart_outlined, () {
-              _nextScreen("My Cart", 'https://shahanarahmanmedicine.com/cart/');
+              _nextScreen("My Cart", 'https://srmedicine.com.bd/cart/');
             }),
             buildListTile(context, 'My Account', Icons.account_box_outlined, () {
-              _nextScreen("My Account", 'https://shahanarahmanmedicine.com/my-account/');
+              _nextScreen("My Account", 'https://srmedicine.com.bd/my-account/');
             }),
             buildListTile(context, 'About Us', Icons.menu_open_sharp, () {
-              _nextScreen("About Us", 'https://shahanarahmanmedicine.com/about/');
+              _nextScreen("About Us", 'https://srmedicine.com.bd/about/');
             }),
-            buildListTile(context, 'Contact Us', Icons.more, () {
-              // _nextScreen("About Screen", About_Screen());
+            buildListTile(context, 'Privacy Policy', Icons.more, () {
+               _nextScreen('Privacy Policy', 'https://srmedicine.com.bd/privacy_policy.html');
             }),
           ],
         ),

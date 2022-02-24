@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:sr_medicine/Navigation/NavDrawer.dart';
+import 'package:sr_medicine/Navigation/nav_drawer.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             Expanded(
               child: WebView(
-                initialUrl: 'https://shahanarahmanmedicine.com/shop/',
+                initialUrl: 'https://srmedicine.com.bd/shop/',
                 javascriptMode: JavascriptMode.unrestricted,
                 onProgress: (progress) => setState(() {
                   this.progress = progress / 100;
